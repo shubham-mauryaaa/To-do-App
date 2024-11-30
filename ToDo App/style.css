@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    height: 10vh;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+.header h2{
+    color: wheat;
+    text-align: center;
+    padding-top: 25px;
+}
+.header h3{
+    font-size: 1rem;
+    position: absolute;
+    color: rgb(81, 72, 72);
+    right: 12px;
+}
+.sidebar-left{
+    width: 22vw;
+    padding: 2rem;
+    height: 100%;
+    background-color: rgb(174, 190, 185);
+    position: fixed;
+    font-weight: bold;
+    text-align: center;
+
+}
+.sidebar-right{
+    height: 100vh;
+    padding-left: 34vw;
+    background: rgb(17,34,34);
+background: linear-gradient(90deg, rgba(17,34,34,1) 0%, rgba(84,134,135,0.9024859943977591) 100%);
+}
+.n{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 190px;
+}
+.contt{
+    color: white;
+    padding-top: 7rem;
+    font-size: 2.0rem;
+}
+.sidebar-left p{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.sidebar-left a{
+    color: rgb(28, 48, 48);
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+}
+.add input{
+    outline: none;
+    padding-top: 2rem;
+    padding: 1.4rem;
+    background-color: rgb(220, 220, 220);
+    box-shadow: inset;
+    border-radius: 46px;
+    width: 60%;
+    font-size: 1.4rem;
+    border: none;
+}
+button{
+    border: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    background-color: #fff;
+    border-radius: 46px;
+    width: 124px; 
+    margin: 8px;
+}
+#append p{
+    display: inline;
+}
+
+#todo-content{
+    font-size: 1.6rem;
+}
+#todo-list{
+    width: 100%;
+}
+li{
+    margin-bottom: 1rem;
+    background-color: white;
+    padding: 2rem 3rem;
+    border-radius: 18px;
+    font-size: 1.2rem;
+    font: bold;
+    list-style-type: none;
+    transition: 0.1s ease-in
+}
+li:hover{
+    background-color: rgb(201, 199, 199);
+    cursor: pointer;
+}
+
+#delete{
+    background-color: whitesmoke;
+    border: 1px solid rgb(127, 125, 125);
+    margin: 8px;
+}
+.done{
+    height: 9rem;
+    padding: 20px;
+    width: 124px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(127, 125, 125);
+
+}
+.coustem-checkbox{
+    width: 124px;
+}
+
+
+fieldset{
+    padding: 12px;
+    overflow: auto;
+    margin-top: 34px;
+    height: 64%;
+    width: 75%;
+    border: none;
+    background-color: rgb(174, 190, 185);
+    /* background-color: rgb(228, 228, 228); */
+    border-radius: 18px;
+}
+fieldset span{
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(43, 91, 91);
+    font-size: 1.2rem;
+    position: absolute;
+    right: 16px;
+    transition: 0.2s ease-out;
+}
+fieldset span:hover{
+    color: rgb(62, 148, 148);
+    
+}
+.field{
+    position: relative;
+}

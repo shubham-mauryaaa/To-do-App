@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="hero">
+            <div class="sidebar-left">
+                <p style="padding-top: 20px;">Welcome!</p>
+                <p id="name"></p>
+                <hr style="border: 1.4px solid black;">
+                <a href="" style="margin-top: 22px;" id="all-task">All Tasks : </a>
+                <a href="" id="comp">Completed : </a>
+            </div>
+
+            <div class="sidebar-right">
+                <div class="n">
+                    <p class="contt" style="display: inline;">DO IT </p>
+                    <p class="contt" id="name2nd" style="display: inline;"></p>
+
+                </div>
+                <div class="add">
+                    <input type="text" placeholder="Write your next task..." id="inp">
+                    <button id="add-btn">Add</button>
+                </div>
+                <fieldset id="fil">
+                    <div class="field">
+                        <ul id="todo-list">
+                        </ul>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
